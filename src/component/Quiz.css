@@ -1,35 +1,84 @@
-.App {
-    text-align: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin: 10px 0;
-    padding: 10px;
-    cursor: pointer;
-    background-color: #f4f4f4;
-  }
-  
-  li:hover {
-    background-color: #ddd;
-  }
-  
-  .selected {
-    background-color: #b3e5fc;
-  }
-  
-  .button{
-    background-color: #0dbc72;
-    border-radius: 20px;
-    width: 20%;
-    cursor: pointer;
-  }
-  .button-disable{
-    border-radius: 20px;
-    width: 20%;
-    cursor: not-allowed;
-  }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.quiz-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 12px 0;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+li:hover {
+  background-color: #e2e6ea;
+}
+
+.selected {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+  color: #0d47a1;
+}
+
+.button, .button-disabled {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.button {
+  background-color: #0dbc72;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0a9d5f;
+}
+
+.button-disabled {
+  background-color: #e0e0e0;
+  color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.score-screen {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
