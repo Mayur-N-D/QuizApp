@@ -4,6 +4,11 @@ A simple and interactive Quiz Application built using React.js and Vite. This ap
 
 ---
 
+## 🚀 Live Demo  
+🔗 View Website:  https://auraquizapp.netlify.app/
+
+---
+
 ## 🚀 Features
 - 🧠 Multiple-choice quiz questions
 - ✅ Answer selection handling
