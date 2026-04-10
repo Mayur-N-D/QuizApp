@@ -1,16 +1,64 @@
-# React + Vite
+# 📘 Quiz App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Quiz Application built using React.js and Vite. This app allows users to answer multiple-choice questions and view their final score at the end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
+- 🧠 Multiple-choice quiz questions
+- ✅ Answer selection handling
+- ⏭️ Navigation through questions
+- 📊 Score calculation system
+- 🎉 Final result display
+- ⚡ Fast performance using Vite
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🛠️ Tech Stack
+- Frontend: React.js
+- Build Tool: Vite
+- Styling: CSS
+- Linting: ESLint
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 📂 Project Structure
+
+- quizapp/
+- │── public/              
+- │── src/
+- │   ├── assets/          
+- │   ├── component/
+- │   │   ├── Quiz.jsx          
+- │   │   ├── QuestionsList.jsx 
+- │   │   ├── Quiz.css         
+- │   ├── App.jsx          
+- │   ├── main.jsx         
+- │   ├── App.css
+- │   ├── index.css
+- │── index.html
+- │── package.json
+- │── vite.config.js
+
+---
+
+## 📝 Disclaimer
+
+This project is created **only for learning and educational purposes**.  
+It does **not** provide real streaming functionality or copyrighted content.  
+All images/icons used are placeholders or royalty-free.
+
+---
+
+## 📩 Contributions
+
+Contributions are always welcome!  
+Feel free to fork, modify, and improve the UI.  
+If you have ideas for better design or animations, send a Pull Request 😊
+
+---
+
+### ⭐ Don’t forget to give this project a star if you like it!
+
+
+
