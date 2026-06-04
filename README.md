@@ -29,21 +29,21 @@ A simple and interactive Quiz Application built using React.js and Vite. This ap
 
 # 📂 Project Structure
 
-- quizapp/
-- │── public/              
-- │── src/
-- │   ├── assets/          
-- │   ├── component/
-- │   │   ├── Quiz.jsx          
-- │   │   ├── QuestionsList.jsx 
-- │   │   ├── Quiz.css         
-- │   ├── App.jsx          
-- │   ├── main.jsx         
-- │   ├── App.css
-- │   ├── index.css
-- │── index.html
-- │── package.json
-- │── vite.config.js
+    quizapp/
+    │── public/              
+    │── src/
+    │   ├── assets/          
+    │   ├── component/
+    │   │   ├── Quiz.jsx          
+    │   │   ├── QuestionsList.jsx 
+    │   │   ├── Quiz.css         
+    │   ├── App.jsx          
+    │   ├── main.jsx         
+    │   ├── App.css
+    │   ├── index.css
+    │── index.html
+    │── package.json
+    │── vite.config.js
 
 ---
 
